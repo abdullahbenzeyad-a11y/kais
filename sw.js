@@ -4,7 +4,7 @@
 // 2) ملفات JSON (بيانات القراء والسور والإعدادات): عرض فوري من الكاش مع تحديث في الخلفية.
 // 3) ملفات الصوت (السور): تُخزَّن تلقائياً بعد أول استماع لتتوفر لاحقاً بدون إنترنت.
 
-const CACHE_VERSION = 'wartel-v1';
+const CACHE_VERSION = 'wartel-v2';
 const STATIC_CACHE = CACHE_VERSION + '-static';
 const DATA_CACHE = CACHE_VERSION + '-data';
 const AUDIO_CACHE = CACHE_VERSION + '-audio';
@@ -12,7 +12,7 @@ const AUDIO_CACHE = CACHE_VERSION + '-audio';
 // الملفات الأساسية التي يتم تخزينها فور تثبيت الـ Service Worker
 const PRECACHE_URLS = [
     './',
-    './index_clou2.html',
+    './index.html',
     './fonts/material-symbols-outlined.woff2'
 ];
 
